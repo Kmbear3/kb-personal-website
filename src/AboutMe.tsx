@@ -6,7 +6,9 @@ function AboutMe() {
   return (
     <>
         <div>
+            <a href="https://vite.dev" target="_blank">
             <img src={KassBarramPic} className="logo" alt="Vite logo" />
+            </a>
         </div>
     </>
   )

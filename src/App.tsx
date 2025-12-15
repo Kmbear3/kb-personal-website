@@ -3,12 +3,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import AboutMe from './AboutMe'
+import ResponsiveAppBar from './ResponsiveAppBar'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      <ResponsiveAppBar />
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
