@@ -48,6 +48,7 @@ export interface Publication {
   authors: string[];
   venue: string;
   year: string;
+  abstract: string;
   award?: string;
   url?: string;
 }
