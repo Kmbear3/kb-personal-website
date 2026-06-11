@@ -11,7 +11,7 @@ function ProjectsSection() {
       id="projects"
       title="Projects"
       subtitle="Selected work that highlights how I approach problems and ship solutions."
-      background="paper"
+      background="default"
     >
       <Box
         sx={{

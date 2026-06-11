@@ -41,3 +41,13 @@ export interface Project {
   highlights: string[];
   featured: boolean;
 }
+
+export interface Publication {
+  id: string;
+  title: string;
+  authors: string[];
+  venue: string;
+  year: string;
+  award?: string;
+  url?: string;
+}

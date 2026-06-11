@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const SECTION_IDS = ['about', 'experience', 'projects', 'contact'];
+const SECTION_IDS = ['about', 'experience', 'publications', 'projects', 'contact'];
 
 export function useActiveSection(): string {
   const [activeSection, setActiveSection] = useState('');
@@ -34,6 +34,7 @@ export function useActiveSection(): string {
 export const navSections = [
   { label: 'About', id: 'about' },
   { label: 'Experience', id: 'experience' },
+  { label: 'Publications', id: 'publications' },
   { label: 'Projects', id: 'projects' },
   { label: 'Contact', id: 'contact' },
 ];
