@@ -3,18 +3,29 @@ import type { SkillGroup } from '../types';
 export const skillGroups: SkillGroup[] = [
   {
     category: 'Languages',
-    skills: ['TypeScript', 'JavaScript', 'Python', 'Java', 'SQL'],
+    skills: ['Java', 'Python', 'C++', 'C', 'JavaScript', 'TypeScript'],
   },
   {
-    category: 'Frontend',
-    skills: ['React', 'HTML/CSS', 'MUI', 'Vite', 'Responsive Design'],
+    category: 'Infrastructure & DevOps',
+    skills: ['Docker', 'Kubernetes', 'CI/CD Pipelines', 'Prometheus', 'Grafana'],
   },
   {
-    category: 'Backend',
-    skills: ['Node.js', 'REST APIs', 'PostgreSQL', 'MongoDB', 'GraphQL'],
+    category: 'Data & Backend',
+    skills: ['MongoDB', 'PostGIS', 'MySQL', 'SQLite', 'gRPC', 'RESTful APIs', 'SQLAlchemy'],
   },
   {
-    category: 'Tools & Practices',
-    skills: ['Git', 'Docker', 'CI/CD', 'Agile', 'Unit Testing', 'Code Review'],
+    category: 'Big Data & Machine Learning',
+    skills: ['PyTorch', 'PySpark', 'Apache Spark', 'Hadoop MapReduce', 'TensorFlow', 'Machine Learning'],
+  },
+  {
+    category: 'Practices & Domains',
+    skills: [
+      'Distributed Systems',
+      'Big Data',
+      'Test Driven Development',
+      'Agile',
+      'TCP Networking',
+      'Artificial Intelligence',
+    ],
   },
 ];

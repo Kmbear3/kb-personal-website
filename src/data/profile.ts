@@ -3,16 +3,17 @@ import type { Profile } from '../types';
 export const profile: Profile = {
   name: 'Kassidy Barram',
   title: 'Software Engineer',
-  tagline: 'I build reliable, user-focused software — from backend systems to polished frontends.',
+  tagline:
+    'I architect distributed systems, decentralized compute infrastructure, and geospatial data pipelines at scale.',
   bioShort:
-    'Software engineer with a passion for writing clean, maintainable code and shipping products that solve real problems.',
+    'Software engineer with 4.5+ years of experience building and deploying distributed systems, private cloud infrastructure, and data-intensive applications.',
   bioLong:
-    'I enjoy working across the stack, with particular interest in building scalable APIs, intuitive user interfaces, and developer-friendly tooling. I care about code quality, thoughtful architecture, and collaborating with teams to deliver meaningful impact.',
+    'I have designed and launched a live Bittensor subnet supporting 250+ miners and a $500K prize pool, and managed a 200-machine private cloud running 24+ containerized services orchestrated by Kubernetes. I work primarily in Python, Java, and C++, with deep experience in Docker, Kubernetes, MongoDB, and gRPC.',
   personalDetail:
-    'Outside of work, I like exploring new technologies, contributing to side projects, and continuously learning better ways to build software.',
-  location: 'United States',
-  email: 'kassidy.barram@example.com',
-  github: 'https://github.com/kassidybarram',
-  linkedin: 'https://linkedin.com/in/kassidybarram',
+    'I hold a Master\'s and Bachelor\'s in Computer Science from Colorado State University, with published research in distributed systems and big data at IEEE/ACM conferences.',
+  location: 'Fort Collins, CO',
+  email: 'kmbarram@gmail.com',
+  github: 'https://github.com/kmbear3',
+  linkedin: 'https://www.linkedin.com/in/kassidy-barram-swe/',
   resumeUrl: '/resume.pdf',
 };
