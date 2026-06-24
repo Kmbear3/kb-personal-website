@@ -5,17 +5,17 @@ export const projects: Project[] = [
     slug: 'bittensor-subnet',
     title: 'Bittensor Subnet Architecture',
     summary:
-      'A fault-tolerant distributed validation and scoring system supporting 250+ miners and a $500K prize pool in a permissionless compute economy.',
+      'A fault-tolerant distributed validation and scoring platform supporting 250+ miners and a $500K prize pool in a permissionless compute economy.',
     problem:
       'A decentralized compute network needed a trust-less validation system that could score submissions from hundreds of independent miners, enforce incentive mechanisms, and safely execute untrusted third-party code.',
     approach:
-      'Architected a distributed validation pipeline in Python across 17 independent validators. Built public and private miner codebases for quantum-inspired optimization solutions, and engineered a Docker-based sandboxed execution environment to isolate untrusted code from host infrastructure.',
+      'Architected a distributed validation platform in Python across 17 independent validators. Led development of modular public and private miner codebases for quantum-inspired optimization solutions, and engineered a security-in-depth Docker sandbox to isolate untrusted code from host infrastructure.',
     outcome:
       'Launched a live Bittensor subnet with 250+ active miners and a $500K prize pool. Data pipelines using MySQL, SQLite, and SQLAlchemy track solutions, scores, and network state reliably at scale.',
     tech: ['Python', 'Docker', 'MySQL', 'SQLite', 'SQLAlchemy', 'gRPC'],
     highlights: [
       '17 independent validators coordinating across a permissionless network',
-      'Docker sandbox for secure execution of untrusted miner code',
+      'Modular miner codebases with security-in-depth Docker sandboxing',
       'Full data pipeline for solution tracking and incentive enforcement',
     ],
     featured: true,
@@ -43,17 +43,17 @@ export const projects: Project[] = [
     slug: 'private-cloud-kubernetes',
     title: 'Private Cloud & Kubernetes Infrastructure',
     summary:
-      'System-wide architecture to deploy, scale, and schedule 24+ distributed services across a 200-machine private cloud with zero downtime.',
+      'Resilient Kubernetes infrastructure to deploy, scale, and schedule 24+ distributed services across a 200-node private cloud at 99.9% uptime.',
     problem:
-      'A growing suite of distributed services needed reliable continuous deployment, auto-scaling, and scheduling across a large private cloud without service interruptions.',
+      'Brittle, failure-prone infrastructure needed a resilient replacement that could support continuous deployment, auto-scaling, and scheduling across a large private cloud without service interruptions.',
     approach:
-      'Built a Kubernetes-based orchestration layer to manage 24+ containerized services across 200 machines. Implemented CI/CD pipelines for continuous deployment and used Prometheus and Grafana for observability.',
+      'Architected and administered a Kubernetes-based orchestration layer to manage 24+ containerized services across 200 nodes. Implemented CI/CD pipelines for continuous deployment and used Prometheus and Grafana for observability.',
     outcome:
-      'Eliminated service downtime across the entire platform. Single-handedly managed the 200-machine private cloud supporting all production workloads.',
+      'Achieved 99.9% uptime across the platform. Administered the 200-node private cloud supporting all production workloads.',
     tech: ['Kubernetes', 'Docker', 'CI/CD', 'Prometheus', 'Grafana'],
     highlights: [
-      '200-machine private cloud managed end-to-end',
-      '24+ containerized services with zero-downtime deployments',
+      '200-node private cloud administered end-to-end',
+      '24+ containerized services at 99.9% uptime',
       'Full observability stack with Prometheus and Grafana',
     ],
     featured: true,
@@ -62,11 +62,11 @@ export const projects: Project[] = [
     slug: 'distributed-ml-validation',
     title: 'Distributed ML Model Validation',
     summary:
-      'Two distributed machine learning model validation services for linear regression and classification, executing across 75 machines.',
+      'Two distributed ML model validation systems for linear regression and classification across a 75-machine compute network.',
     problem:
       'Machine learning models needed rigorous distributed validation at scale, running regression and classification tests across a large compute cluster.',
     approach:
-      'Developed 2 validation services that distribute model evaluation workloads across 75 machines. Built fault-tolerant job scheduling and result aggregation to handle partial failures gracefully.',
+      'Built 2 distributed validation systems that distribute model evaluation workloads across a 75-machine compute network. Built fault-tolerant job scheduling and result aggregation to handle partial failures gracefully.',
     outcome:
       'Enabled reliable, scalable validation of ML models across the private cloud, supporting both linear regression and classification use cases.',
     tech: ['Python', 'Machine Learning', 'Distributed Systems', 'Kubernetes'],

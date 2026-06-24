@@ -2,6 +2,25 @@ import type { Publication } from '../types';
 
 export const publications: Publication[] = [
   {
+    id: 'pub-archimedes',
+    title:
+      'Archimedes: A Framework to Support Distributional Similarity Analysis over Arbitrary Spatiotemporal Scopes at Scale',
+    authors: [
+      'Paige Hansen',
+      'Nathan Orwick',
+      'Kassidy Barram',
+      'Pierce Smith',
+      'Jay Breidt',
+      'Sangmi Lee Pallickara',
+      'Shrideep Pallickara',
+    ],
+    venue: 'IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGrid)',
+    year: '2025',
+    abstract:
+      'As data volumes have grown, they offer opportunities to extract insights from them. The class of datasets we consider are spatiotemporal — data that have spatial and temporal dimensions associated with them. In this study, we describe our methodology to support distributional similarity analysis at scale. Such distributional analyses are critical in identifying overall trends in spatiotemporally evolving phenomena, and can be used to inform model calibration and decision making. Our methodology leverages a mix of statistical, algorithmic, and systems approaches to facilitate effective analyses over voluminous datasets. We profile several aspects of our methodology, and our benchmarks validate several of our design choices.',
+    url: 'https://doi.org/10.1109/CCGRID64434.2025.00057',
+  },
+  {
     id: 'pub-scrybe',
     title:
       'Scrybe: Enabling Programmatic Interfaces for Explorations Over Voluminous Spatiotemporal Data Collections',
@@ -53,24 +72,5 @@ export const publications: Publication[] = [
     abstract:
       'We design models to understand phenomena, make predictions, and inform decision-making. This study targets models that encapsulate spatially evolving phenomena. Given a model, our objective is to identify how well the model predicts across all geospatial extents. A modeler may expect these validations to occur at varying spatial resolutions (e.g., states, counties, towns, census tracts). Assessing a model with all available ground-truth data is infeasible due to the data volumes involved. We propose a framework to assess the performance of models at scale over diverse spatial data collections. Our methodology ensures orchestration of validation workloads while reducing memory strain, alleviating contention, enabling concurrency, and ensuring high throughput. We introduce the notion of a validation budget that represents an upper bound on the total number of observations used to assess model performance across spatial extents. The validation budget attempts to capture the distribution characteristics of observations and is informed by multiple sampling strategies. Our design allows us to decouple validation from the underlying model-fitting libraries to interoperate with models designed using Scikit-learn, PyTorch, and TensorFlow.',
     url: 'https://doi.org/10.1109/BigData55660.2022.10020752',
-  },
-  {
-    id: 'pub-archimedes',
-    title:
-      'Archimedes: A Framework to Support Distributional Similarity Analysis over Arbitrary Spatiotemporal Scopes at Scale',
-    authors: [
-      'Paige Hansen',
-      'Nathan Orwick',
-      'Kassidy Barram',
-      'Pierce Smith',
-      'Jay Breidt',
-      'Sangmi Lee Pallickara',
-      'Shrideep Pallickara',
-    ],
-    venue: 'IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGrid)',
-    year: '2025',
-    abstract:
-      'As data volumes have grown, they offer opportunities to extract insights from them. The class of datasets we consider are spatiotemporal — data that have spatial and temporal dimensions associated with them. In this study, we describe our methodology to support distributional similarity analysis at scale. Such distributional analyses are critical in identifying overall trends in spatiotemporally evolving phenomena, and can be used to inform model calibration and decision making. Our methodology leverages a mix of statistical, algorithmic, and systems approaches to facilitate effective analyses over voluminous datasets. We profile several aspects of our methodology, and our benchmarks validate several of our design choices.',
-    url: 'https://doi.org/10.1109/CCGRID64434.2025.00057',
   },
 ];

@@ -4,6 +4,7 @@ import HeroSection from '../components/home/HeroSection';
 import AboutSection from '../components/home/AboutSection';
 import SkillsSection from '../components/home/SkillsSection';
 import ExperienceSection from '../components/home/ExperienceSection';
+import EducationSection from '../components/home/EducationSection';
 import PublicationsSection from '../components/home/PublicationsSection';
 import ProjectsSection from '../components/home/ProjectsSection';
 import ContactSection from '../components/home/ContactSection';
@@ -45,6 +46,7 @@ function Home() {
       <AboutSection />
       <SkillsSection />
       <ExperienceSection />
+      <EducationSection />
       <PublicationsSection />
       <ProjectsSection />
       <ContactSection />
