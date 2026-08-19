@@ -1,5 +1,5 @@
 # kb-personal-website
-Kassidy's personal website.
+Kassidy's personal website
 
 # React + TypeScript + Vite
 
