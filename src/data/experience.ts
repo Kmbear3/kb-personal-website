@@ -9,8 +9,8 @@ export const experiences: Experience[] = [
     startDate: 'Sep 2025',
     endDate: 'Present',
     bullets: [
-      'Architected a fault-tolerant, distributed validation and scoring platform in Python across 17 independent validators and 250+ miners, enforcing incentive mechanisms across a $500K prize pool in a permissionless, trust-less compute economy.',
-      'Led development of public and private miner codebases, providing the foundation for participants to submit quantum-inspired solutions to NP-hard optimization problems. The system leverages a modular architecture and inheritance to reduce duplication and ensure maintainability.',
+      'Architected a fault-tolerant, distributed validation platform in Python across over 250 independent nodes.',
+      'Led development of public and private miner codebases, providing the foundation for participants to submit quantum-inspired solutions to NP-hard optimization problems.',
       'Engineered a security-in-depth Docker-based sandboxed execution environment for untrusted third-party code.',
       'Built and managed data pipelines and persistence layers using MySQL, SQLite, and SQLAlchemy to support solution tracking, scoring, and network state management.',
     ],
