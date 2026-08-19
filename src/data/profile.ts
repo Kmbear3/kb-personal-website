@@ -8,7 +8,7 @@ export const profile: Profile = {
   bioShort:
     'Software engineer with 4.5+ years architecting distributed systems and decentralized compute infrastructure.',
   bioLong:
-    'I have architected a fault-tolerant distributed validation platform across 17 validators and 250+ miners with a $500K prize pool, led development of modular miner codebases with security-in-depth sandboxing, and administered a 200-node private cloud running 24+ services at 99.9% uptime on Kubernetes. I work primarily in Python, Java, and C++, with deep experience in Docker, Kubernetes, MongoDB, and gRPC.',
+    'I have architected a fault-tolerant distributed validation platform across over 250 independent nodes, led development of modular miner codebases with security-in-depth sandboxing, and administered a 200-node private cloud running 24+ services at 99.9% uptime on Kubernetes. I work primarily in Python, Java, and C++, with deep experience in Docker, Kubernetes, MongoDB, and gRPC.',
   personalDetail:
     'I hold an M.S. in Computer Science from Colorado State University (Summa cum Laude, 4.0 GPA, May 2025) and a B.S. in Computer Science (Cum Laude, 3.95 GPA, May 2022). My research earned Best Paper at the 2023 ACM/IEEE Big Data Conference, publication at four IEEE/ACM conferences, an NSF undergraduate research grant, and a CURC award.',
   location: 'Fort Collins, CO',

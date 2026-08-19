@@ -5,16 +5,16 @@ export const projects: Project[] = [
     slug: 'bittensor-subnet',
     title: 'Bittensor Subnet Architecture',
     summary:
-      'A fault-tolerant distributed validation and scoring platform supporting 250+ miners and a $500K prize pool in a permissionless compute economy.',
+      'A fault-tolerant distributed validation and scoring platform spanning over 250 independent nodes in a permissionless compute economy.',
     problem:
       'A decentralized compute network needed a trust-less validation system that could score submissions from hundreds of independent miners, enforce incentive mechanisms, and safely execute untrusted third-party code.',
     approach:
-      'Architected a distributed validation platform in Python across 17 independent validators. Led development of modular public and private miner codebases for quantum-inspired optimization solutions, and engineered a security-in-depth Docker sandbox to isolate untrusted code from host infrastructure.',
+      'Architected a distributed validation platform in Python across over 250 independent nodes. Led development of modular public and private miner codebases for quantum-inspired optimization solutions, and engineered a security-in-depth Docker sandbox to isolate untrusted code from host infrastructure.',
     outcome:
-      'Launched a live Bittensor subnet with 250+ active miners and a $500K prize pool. Data pipelines using MySQL, SQLite, and SQLAlchemy track solutions, scores, and network state reliably at scale.',
+      'Launched a live Bittensor subnet spanning over 250 independent nodes. Data pipelines using MySQL, SQLite, and SQLAlchemy track solutions, scores, and network state reliably at scale.',
     tech: ['Python', 'Docker', 'MySQL', 'SQLite', 'SQLAlchemy', 'gRPC'],
     highlights: [
-      '17 independent validators coordinating across a permissionless network',
+      'Over 250 independent nodes coordinating across a permissionless network',
       'Modular miner codebases with security-in-depth Docker sandboxing',
       'Full data pipeline for solution tracking and incentive enforcement',
     ],
